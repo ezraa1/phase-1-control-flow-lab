@@ -13,16 +13,11 @@
 }
 
 
-function ternaryCheckCity(city){
-  // Write your code here!
-  if (city === 'NYC') {
-    return 'Ok, sounds good.'
-  }
-  else {
-    return 'No go.';
-  }
 
-};
+  // Write your code here!
+  function ternaryCheckCity(city) {
+    return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
+  }
 
 
   // Write your code here!
